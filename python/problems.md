@@ -10,8 +10,9 @@
 6.  Find the largest of three numbers.
 7.  Check if a number is positive, negative, or zero.
 8.  Convert Celsius to Fahrenheit.
-9.  Calculate simple interest.
-10. Check if a number is divisible by 5 and 11.
+9.  convert farenhiet to celsius
+11.  Calculate simple interest.
+12. Check if a number is divisible by 5 and 11.
 
 ------------------------------------------------------------------------
 
