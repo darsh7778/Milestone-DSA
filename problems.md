@@ -36,13 +36,11 @@
 21. Reverse a string.
 22. Check if a string is palindrome.
 23. Count vowels and consonants.
-24. Count frequency of each character.
-25. Remove spaces from a string.
-26. Check if two strings are anagrams.
-27. Capitalize first letter of each word.
-28. Find longest word in a sentence.
-29. Replace all occurrences of a substring.
-30. Check if string contains only digits.
+24. Remove spaces from a string.
+25. Check if two strings are anagrams.
+26. Capitalize first letter of each word.
+27. Find longest word in a sentence.
+28. Check if string contains only digits.
 
 ------------------------------------------------------------------------
 
