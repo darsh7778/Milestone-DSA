@@ -52,10 +52,15 @@
 34. Find sum of elements in list.
 35. Sort a list without using `sort()`.
 36. Merge two lists.
+37. merge two sorted lists.
 37. Find common elements in two lists.
 38. Rotate list by k positions.
 39. Find missing number in list (1 to N).
 40. Find pairs with given sum.
+41. move all zeros to the end
+42. find the missing number from 1 to n
+43. union of two arrays
+44. intersection of two arrays
 
 -----------------------------------------------------------------------
 

@@ -6,8 +6,6 @@ def bubble_sort(arr):
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-arr = [4, 5, 3, 7, 2, 1]
-
-bubble_sort(arr)
-
+arr = [4, 3, 2, 6, 1]
+bubble_sort(arr)     # already sorted
 print(arr)

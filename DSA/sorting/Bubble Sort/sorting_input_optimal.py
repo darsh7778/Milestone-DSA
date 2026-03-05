@@ -9,11 +9,10 @@ def bubblesort(arr):
         if not swapped:
             break
 
-n = int(input())
         
-arr = list(map(int, input().split()))  # enter the elements of array
+arr = list(map(int, input("enter the elements of array :").split()))  # enter the elements of array
 
 bubblesort(arr)
 
-print(" ".join(map(str, arr)))
+print("sorted array :"," ".join(map(str, arr)))
 

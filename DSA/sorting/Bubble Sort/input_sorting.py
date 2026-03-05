@@ -10,7 +10,6 @@ def bubble_sort(arr):
         if not swapped:  # If no swap happened, array already sorted
             break
 
-
 # Step 1: Ask size
 n = int(input("Enter the size of array: "))
 
@@ -21,8 +20,10 @@ arr = []
 for i in range(n):
     element = int(input(f"Enter array element {i+1}: "))
     arr.append(element)
+    
+print("given array :", arr)
 
 # Step 4: Sort array
 bubble_sort(arr)
 
-print("sorted array =", arr)
+print("sorted array :", arr)
