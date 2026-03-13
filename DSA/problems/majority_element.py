@@ -16,7 +16,7 @@ def majority_element(num):
             print(count)
             
     return candidate # agar niche wali step use kar rahe he to ise skip karna
-        
+
     # verification step 
     # this step is optional because problem me clearly bola gaya hai 👇
     # The majority element always exists in the array. Matlab-> majority element > n/2

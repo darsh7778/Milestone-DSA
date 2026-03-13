@@ -1,4 +1,3 @@
-# Python Comeback Practice Plan (60 Problems)
 
 ## 🟢 Level 1 -- Basics (Very Easy)
 
@@ -51,16 +50,18 @@
 33. Remove duplicates from list.
 34. Find sum of elements in list.
 35. Sort a list without using `sort()`.
-36. Merge two lists.
+36. Merge two lists.----------------------------
 37. merge two sorted lists.
-37. Find common elements in two lists.
+37. Find common elements in two lists.---------------
 38. Rotate list by k positions.
-39. Find missing number in list (1 to N).
+39. Find missing number in list (1 to N). -----------------
 40. Find pairs with given sum.
-41. move all zeros to the end
-42. find the missing number from 1 to n
-43. union of two arrays
-44. intersection of two arrays
+41. move all zeros to the end --------------------------
+42. union of two arrays
+43. intersection of two arrays
+44. count the number of digit
+45. check the number for palindrome
+46. check for amstrong number
 
 -----------------------------------------------------------------------
 
@@ -102,20 +103,3 @@
 59. Find first non-repeating character.
 60. Merge two sorted arrays.
 
-------------------------------------------------------------------------
-
-## 🎯 When to Start DSA
-
-Start DSA after solving **35--40 problems** confidently.
-
-### Best Strategy:
-
-1.  Solve first 30--40 problems.
-2.  Start DSA with arrays and strings.
-3.  Continue solving advanced problems alongside DSA.
-
-------------------------------------------------------------------------
-
-🔥 Recommended Practice: - Solve 5--8 problems daily. - Avoid copying
-solutions. - Write clean functions. - Optimize after brute-force
-solution.

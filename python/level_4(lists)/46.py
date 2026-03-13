@@ -1,3 +1,4 @@
+# Check for amstrong number 
 n = 153
 
 num = n
