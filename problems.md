@@ -62,6 +62,7 @@
 44. count the number of digit
 45. check the number for palindrome
 46. check for amstrong number
+47. find the factors of a given number
 
 -----------------------------------------------------------------------
 
@@ -72,6 +73,7 @@
 43. Find intersection of two lists using sets.
 44. Check if two lists have same elements.
 45. Group words by first letter.
+46. store the frequency in dictionary.
 
 -----------------------------------------------------------------------
 

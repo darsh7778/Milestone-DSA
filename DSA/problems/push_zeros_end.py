@@ -15,14 +15,14 @@
 
 
 # optimal solution      
-# def push_zero_end(arr):
-#     n = len(arr)
-#     j = 0
+def push_zero_end(arr):
+    n = len(arr)
+    j = 0
 
-#     for i in range(n):
-#         if arr[i] != 0:
-#             arr[i], arr[j] = arr[j], arr[i]
-#             j += 1
+    for i in range(n):
+        if arr[i] != 0:
+            arr[i], arr[j] = arr[j], arr[i]
+            j += 1
  
  
             
