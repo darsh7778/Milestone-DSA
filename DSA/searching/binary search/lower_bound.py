@@ -13,6 +13,7 @@ def lower_bound(nums, target):
 
     return lb
 
-nums = [1, 1, 1, 2, 3, 3, 5, 6, 7, 7, 7, 9, 12, 12, 13]
-print(lower_bound(nums, 2))
+# nums = [1, 1, 1, 2, 3, 3, 5, 6, 7, 7, 7, 9, 12, 12, 13]
+nums = [3,4,5,6,7,7,8,9,9,9,10]
+print(lower_bound(nums, 7))
         

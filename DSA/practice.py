@@ -1,15 +1,18 @@
-def pushZeros(arr):
-    n = len(arr)
-    j = 0
-    
-    for i in range(n):
-        if arr[i] != 0:
-            arr[i], arr[j] = arr[j], arr[i]
-            j += 1
-    return arr
+def lower_bound(nums, target):
+    n = len(nums)
+    lb = n
+    ub = -1
+    low, high = 0, n-1
 
-arr = [4,3,0,0,2,0,1]
-result = pushZeros(arr)
-print(result)
-        
-            
+    while low <= high:
+        mid = (low + high)//2
+        if nums[mid] <= target:
+            lb = mid
+            high = mid - 1
+        else:
+            low = mid + 1
+
+    return lb
+
+nums = [3,4,5,6,7,7,8,9,9,9,10]
+print(lower_bound(nums, 7))
