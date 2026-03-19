@@ -2,7 +2,7 @@
 class Solution:
     def lower_bound(self, nums, target):
         n = len(nums)
-        lb = n
+        lb = -1
         low, high = 0, n-1
 
         while low <= high:
