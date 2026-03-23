@@ -41,8 +41,9 @@ class Solution:
 
 sol = Solution()
 
-nums = [1,1,2,3,3,3,4,4,5,6,7,8,11,12,13,15]
-target = 3
+n = int(input())
+nums = list(map(int, input().split()))
+target = int(input())
 
 result = sol.search_occurances(nums, target)
 print(result)
