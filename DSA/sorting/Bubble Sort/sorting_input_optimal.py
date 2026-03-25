@@ -11,8 +11,6 @@ def bubblesort(arr):
 
         
 arr = list(map(int, input("enter the elements of array :").split()))  # enter the elements of array
-
 bubblesort(arr)
-
 print("sorted array :"," ".join(map(str, arr)))
 
