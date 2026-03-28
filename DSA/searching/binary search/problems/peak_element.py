@@ -10,7 +10,7 @@ def peak_ele(nums):
             high = mid 
     return low
 
-nums= [1,2,3,4,2,1]
+nums= [1,3,4,2,1]
 result = peak_ele(nums)
 print(result)
 
