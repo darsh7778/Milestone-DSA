@@ -31,7 +31,7 @@ def majority_element(num):
     #     return -1
         
 
-num = list(map(int, input().split()))
+num = [4,5,2,2,1,6]
 result = majority_element(num)
 
 print(result)
