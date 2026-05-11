@@ -1,7 +1,6 @@
 def cycle_sort(arr):
     n = len(arr)
-    writes = 0
-
+    
     for cycle_start in range(n - 1):
         item = arr[cycle_start]
     
@@ -21,7 +20,6 @@ def cycle_sort(arr):
         
         # Step 3: Place item
         arr[pos], item = item, arr[pos]
-        writes += 1
         
         # Step 4: Rotate rest of cycle
         while pos != cycle_start:
@@ -35,10 +33,9 @@ def cycle_sort(arr):
                 pos += 1
 
             arr[pos], item = item, arr[pos]
-            writes += 1
 
-    return [arr, writes]
+    return arr
 
-arr = [7, 4, 2, 6]
+arr = [3,4,2,1,6]
 result = cycle_sort(arr)
 print(result)

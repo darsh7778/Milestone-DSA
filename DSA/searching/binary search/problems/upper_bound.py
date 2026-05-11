@@ -12,7 +12,7 @@ def lower_bound(nums, target):
         else:
             low = mid + 1
 
-    return ub- 1
+    return ub - 1
 
 nums = [1, 1, 1, 2, 3, 3, 5, 6, 7, 7, 7, 9, 12, 12, 13]
 print(lower_bound(nums, 1))

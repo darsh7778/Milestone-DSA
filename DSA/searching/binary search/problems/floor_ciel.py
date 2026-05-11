@@ -12,10 +12,10 @@ def ciel_floor(nums, target):
             ciel = nums[mid]
             high = mid - 1
         else:
-            floor = nums[mid]
+            floor = nums[mid] 
             low = mid + 1
     return floor, ciel
 
 nums = [5,7,7,8,8,10]
-result = ciel_floor(nums, 5)
+result = ciel_floor(nums, 6)
 print(result) 
