@@ -14,8 +14,8 @@ print("the reversed number is", reversed_num)
 
 #Reverse a number by using string slicing
 
-n = int(input("enter the number = "))
+# n = int(input("enter the number = "))
 
-reversed_number = int(str(n)[::-1])
+# reversed_number = int(str(n)[::-1])
     
-print("reversed number =>", reversed_number)
+# print("reversed number =>", reversed_number)

@@ -30,6 +30,7 @@ class SinglyLinkedList:
     
     def delete(self, val):
         temp = self.head
+        
         if temp.next is not None:
             if temp.val == val:
                 self.head = temp.next
